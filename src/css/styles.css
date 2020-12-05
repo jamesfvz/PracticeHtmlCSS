@@ -1,16 +1,48 @@
+:root {
+    --navbar-height: 3rem;
+    --max-width: 900px;
+  }
+
 *{
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    color: blanchedalmond
+    color: white;
 }
 
 button{
-    color: black;
+    color: white;
+    background-color: grey;
 }
 
 label{
     display: inline-block;
     width: 31%;
 }
+
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: darkblue;
+}
+.principal{
+    
+  
+}
+
+
+.logo{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  
+    width:20%;
+    height:20%;
+   }
 
 .login{
   
@@ -19,8 +51,4 @@ display: flex;
   align-items: center;
 }
 
-.itemLogin{
 
-    
-    
-}
