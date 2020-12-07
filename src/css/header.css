@@ -1,0 +1,9 @@
+.header {
+    height: 80vh;
+    background: url('../img/header-bg.jpg') top center no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

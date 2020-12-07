@@ -1,0 +1,17 @@
+/*.novedades img {
+    width: 100%;
+  }*/
+
+  /*@media (min-width: 768px){*/
+    .flex-item{
+        display:flex;
+        
+    }
+
+.flex-item img{
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+    padding: 0.5rem;
+}
+  /*}*/

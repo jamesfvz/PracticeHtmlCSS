@@ -60,6 +60,16 @@
   font-size: 2rem;
 }
 
+
+#buscar-form{
+  /*position: fixed;*/
+  
+  line-height: 3rem;
+  text-align: right;
+  /*right:0;*/
+
+}
+
   @media (min-width: 768px) {
 
     
@@ -69,12 +79,13 @@
     }
 
     .navbar .logo img{
-      height:100%;
-      width:15%;
+      height:60%;
+      width:10%;
       position:absolute;
       top:0;
       left:0;
-      padding:0.75rem;
+      right:0.2;
+      padding:0.5rem;
     }
 
     .navbar-list {
