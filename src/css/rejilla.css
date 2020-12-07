@@ -5,13 +5,31 @@
   /*@media (min-width: 768px){*/
     .flex-item{
         display:flex;
+        position:relative;
         
     }
+
+    .info {
+        display: none;
+        position: absolute;
+        opacity: 0.5;
+        bottom: 0;
+        z-index: 10;
+        width: 15rem;
+        color: #FFF;
+        padding: 10px;
+       }
+
+
 
 .flex-item img{
     height: 10rem;
     width: 15rem;
     object-fit: cover;
     padding: 0.5rem;
+} 
+.text-img:hover .info{
+    display:block;
 }
-  /*}*/
+
+
