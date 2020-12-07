@@ -16,7 +16,7 @@ button{
 
 label{
     display: inline-block;
-    width: 31%;
+    width: 5rem;
 }
 
 a,
@@ -24,13 +24,9 @@ a:link,
 a:visited,
 a:focus {
   text-decoration: none;
-  color: darkblue;
+  color: whitesmoke;
+  padding: 0.5rem;
 }
-.principal{
-    
-  
-}
-
 
 .logo{
  display: flex;

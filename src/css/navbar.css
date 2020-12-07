@@ -6,18 +6,31 @@
   height: var(--navbar-height);
 }
 
+#burger-checkbox {
+  display: none;
+}
 
+.burger-label {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  /* no es necesario para dispositivo táctil */
+  /* cursor: pointer; */
+}
 
 .burger-label:before {
   content: '';
-  background-color: darkgray;
+  background-color: whitesmoke;
   width: 1rem;
   height: 0.12rem;
   position: absolute;
   left: 0.45rem;
   top: 0.65rem;
 
-  box-shadow: 0 0.25rem 0 0 darkgray, 0 0.5rem 0 0 darkgray;
+  box-shadow: 0 0.25rem 0 0 whitesmoke, 0 0.5rem 0 0 whitesmoke;
 }
 
 /* cerrado */
@@ -40,7 +53,7 @@
 }
 
 .navbar-item a {
-  color: azure;
+  color: whitesmoke;
   display: block;
   text-align: center;
   line-height: 3rem;
@@ -48,6 +61,8 @@
 }
 
   @media (min-width: 768px) {
+
+    
     .navbar {
       display: flex;
       justify-content: space-between;
