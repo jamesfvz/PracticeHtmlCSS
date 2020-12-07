@@ -1,0 +1,32 @@
+.detail{
+    display:flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.info-detail{
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding:5rem;
+}
+
+.info-detail-titulo, 
+.info-detail-calificacion,
+.info-detail-ano,
+.info-detail-sinopsis,
+.info-detail-actores{
+    margin-top: 1rem;
+    
+}
+
+.info-titulo, 
+.info-calificacion,
+.info-ano,
+.info-sinopsis,
+.info-actores{
+    font-weight: bold;
+    
+}

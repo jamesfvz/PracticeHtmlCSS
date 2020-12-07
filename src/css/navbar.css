@@ -10,16 +10,7 @@
   display: none;
 }
 
-.burger-label {
-  
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2rem;
-  height: 2rem;
-  /* no es necesario para dispositivo táctil */
-  /* cursor: pointer; */
-}
+
 
 .burger-label:before {
   content: '';
