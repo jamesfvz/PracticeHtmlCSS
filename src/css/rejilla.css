@@ -4,12 +4,13 @@
 
   /*@media (min-width: 768px){*/
 
-   
+
     .flex-item{
         display:flex;
         position:relative;
         
     }
+    
    
     .info {
         display: none;
@@ -22,7 +23,18 @@
         padding: 10px;
        }
       
+       .button {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: grey;
+        color: #333333;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+      }
 
+      
 
 .flex-item img{
     height: 10rem;

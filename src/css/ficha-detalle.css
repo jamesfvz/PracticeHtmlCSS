@@ -1,16 +1,22 @@
 .detail{
     display:flex;
-    flex-direction: column;
-    padding-top: 10%;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 2%;
 }
 
+.img-detail{
+padding-left:10%;
+height:15rem;
+width:80%;
+}
 .info-detail{
     display:flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-left: -3%; 
     margin-right: auto;
-    margin-top: auto;
-    padding:5rem;
+    margin-top: 3%;
+    padding:3rem;
 }
 
 .info-detail-titulo, 
