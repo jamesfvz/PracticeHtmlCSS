@@ -5,6 +5,10 @@
     padding-left: 2%;
 }
 
+.titulo-img{
+    display:flex;
+    flex-direction: column;
+}
 .img-detail{
 padding-left:10%;
 height:15rem;
