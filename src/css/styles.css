@@ -28,11 +28,18 @@ a:focus {
   padding: 0.5rem;
 }
 
-.logo{
+.principal{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+ .logo{
  display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
 .logo img{
   
@@ -40,11 +47,6 @@ a:focus {
     height:20%;
    }
 
-.login{
-  
-display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
