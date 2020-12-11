@@ -76,5 +76,20 @@
      margin-left: 2%;
     }
   
-  
- 
+    .buscar-form{
+      display:flex;
+      flex-direction: column;
+       justify-content: center;
+      /*text-align: center; */
+      padding:1rem;
+    }
+ .itemBuscar{
+   padding:0.5rem;
+ }
+
+ .divBotonBuscar{
+margin-top: 0.5rem;
+margin-left:1rem;
+   padding:0.5rem;
+   width:10%;
+ }

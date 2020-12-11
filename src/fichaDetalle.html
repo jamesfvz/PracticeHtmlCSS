@@ -14,29 +14,22 @@
 <body>
     <nav id="navbar" class="navbar">
         <div class="logo">
-            <img src="./img/JimflixLogo.png" alt="Jimflix" />
+          <img src="./img/JimflixLogo.png" alt="Jimflix" />
         </div>
-
+  
         <input type="checkbox" id="burger-checkbox" />
         <label for="burger-checkbox" class="burger-label"></label>
-
+  
         <ul class="navbar-list">
-            <li class="navbar-item"><a href="./mainPage.html">Inicio</a></li>
-            <li class="navbar-item"><a href="#novedades">Novedades</a></li>
-            <li class="navbar-item"><a href="#series">Series</a></li>
-            <li class="navbar-item"><a href="#peliculas">Peliculas</a></li>
-            <li class="navbar-item"><a href="#favoritos">Favoritos</a></li>
-            <!--li class="navbar-item"><a href="#buscar">Buscar</a></li-->
-            <li class="navbar-item"><a href="./index.html">Cerrar</a></li>
-
-            <section id="buscar" class="section">
-                <form action="./mainPage.html" id="buscar-form" class="buscar-form">
-                    <label for="">Buscar:</label>
-                    <input type="text" />
-                </form>
-            </section>
+          <li class="navbar-item"><a href="./mainPage.html">Inicio</a></li>
+          <li class="navbar-item"><a href="#novedades">Novedades</a></li>
+          <li class="navbar-item"><a href="#series">Series</a></li>
+          <li class="navbar-item"><a href="#peliculas">Peliculas</a></li>
+          <li class="navbar-item"><a href="#favoritos">Favoritos</a></li>
+          <li class="navbar-item"><a href="#buscar">Buscar</a></li>
+          <li class="navbar-item"><a href="./index.html">Cerrar</a></li>
         </ul>
-    </nav>
+      </nav>
     <main>
         <h2>Información</h2>
         <section class="detail">
@@ -164,6 +157,23 @@
             </div>
             </div>
         </section>
+        <section id="buscar">
+            <h2>Busqueda</h2>
+            <div class="divBuscar">
+              <form action="./mainPage.html" id="buscar-form" class="buscar-form">
+                <div class="itemBuscar">
+                <label for="">Titulo:</label>
+                <input type="text" />
+            </div>
+            <div class="itemBuscar">
+                <label for="">Actor/Actriz:</label>
+                <input type="text" />
+            </div>
+                <button class="divBotonBuscar" type="submit" class="button">Buscar </button>
+          
+              </form>
+            </div>
+          </section>
     </main>
 </body>
 

@@ -51,16 +51,6 @@
   font-size: 2rem;
 }
 
-
-#buscar-form{
-  /*position: fixed;*/
-  
-  line-height: 3rem;
-  text-align: right;
-  /*right:0;*/
-
-}
-
   @media (min-width: 768px) {
 
     
