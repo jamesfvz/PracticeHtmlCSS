@@ -28,6 +28,10 @@ a:focus {
   padding: 0.5rem;
 }
 
+#rememberPassword{
+  text-decoration: underline whitesmoke;
+}
+
 .principal{
 
   display:flex;
