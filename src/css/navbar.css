@@ -4,13 +4,13 @@
   top: 0;
   left: 0;
   height: var(--navbar-height);
+  z-index: 10;
 }
 
 #burger-checkbox {
   display: none;
+
 }
-
-
 
 .burger-label:before {
   content: '';
@@ -29,7 +29,7 @@
   display: none;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1;
 }
 
 /* abierto */
@@ -37,10 +37,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-items: center; */ /* no puedo hacer click en los laterales */
   background-color: black;
-  height: calc(100vh - var(--navbar-height));
+  height: calc(90vh - var(--navbar-height)); 
   opacity: 0.85;
+  z-index: inherit;
 }
 
 .navbar-item a {
@@ -53,7 +53,6 @@
 
   @media (min-width: 768px) {
 
-    
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -80,7 +79,7 @@
   
     .navbar-item a {
       color: whitesmoke;
-      font-size: 1.5rem;
+      font-size: 1rem;
       line-height: var(--navbar-height);
       padding: 0 1rem;
       
